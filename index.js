@@ -101,8 +101,7 @@ const handleRequest = async (req, res) => {
 };
 
 const server = http.createServer(handleRequest);
-
-server.listen(3000, async () => {
+server.listen(3000, "0.0.0.0", async () => {
   const ip = await getPublicIP();
   console.log(`Server running at http://${ip}:3000/`);
 });
