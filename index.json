@@ -1,0 +1,14 @@
+[
+  {
+    "keyword": "youtube",
+    "url": "https://www.youtube.com",
+    "connectionCount": 6,
+    "connections": []
+  },
+  {
+    "keyword": "google",
+    "url": "http://google.com",
+    "connectionCount": 1,
+    "connections": []
+  }
+]
